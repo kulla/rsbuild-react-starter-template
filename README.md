@@ -27,3 +27,11 @@ Preview the production build locally:
 ```bash
 bun preview
 ```
+
+## Maintenance
+
+Update dependencies:
+
+```bash
+bun update
+```
