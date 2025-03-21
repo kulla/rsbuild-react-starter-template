@@ -8,6 +8,18 @@ on:
       - main
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: ./.github/actions/setup-bun
+
+      - name: Build website
+        run: bun run build
+
   check:
     runs-on: ubuntu-latest
     steps:
