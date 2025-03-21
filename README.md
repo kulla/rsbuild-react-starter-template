@@ -19,7 +19,7 @@ bun dev
 Build the app for production:
 
 ```bash
-bun build
+bun run build
 ```
 
 Preview the production build locally:
