@@ -1,4 +1,4 @@
-# Rsbuild project
+# Rsbuild template repository
 
 ## Setup
 
