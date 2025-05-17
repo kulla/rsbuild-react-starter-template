@@ -1,6 +1,6 @@
 import './App.css'
 
-const App = () => {
+export default function App() {
   return (
     <main className="prose p-10">
       <h1>Rsbuild with React</h1>
@@ -8,5 +8,3 @@ const App = () => {
     </main>
   )
 }
-
-export default App
