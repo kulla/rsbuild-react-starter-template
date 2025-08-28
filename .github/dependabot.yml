@@ -8,6 +8,13 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    groups:
+      minor-and-patch:
+        update-types:
+          - minor
+          - patch
+        exclude-patterns:
+          - "@biomejs/biome"
 
   - package-ecosystem: "github-actions"
     directory: "/"
