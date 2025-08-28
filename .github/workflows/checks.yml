@@ -19,7 +19,7 @@ jobs:
       - name: Build website
         run: bun run build
 
-  check:
+  biome:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
