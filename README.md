@@ -9,7 +9,8 @@ This is a template repository for `rsbuild` with `React` and `TypeScript`. It us
 3. Update `assetPrefix` in `rsbuild.config.ts` to your repository name
 4. Update `title` in `rsbuild.config.ts` to your project name
 5. Install the dependencies via `bun install`
-6. Update this `README.md` file
+6. Update or remove `.github/workflows/sync-to-gitlab.yml` if you want to sync to GitLab
+7. Update this `README.md` file
 
 ## Setup
 
