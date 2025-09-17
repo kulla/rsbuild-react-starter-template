@@ -1,3 +1,4 @@
+import '@picocss/pico/css/pico.min.css'
 import './App.css'
 
 export default function App() {

@@ -4,6 +4,7 @@
     "": {
       "name": "rsbuild-react-bun-biome-starter-template",
       "dependencies": {
+        "@picocss/pico": "^2.1.1",
         "clsx": "^2.1.1",
         "es-toolkit": "^1.39.10",
         "react": "^19.1.1",
@@ -75,6 +76,8 @@
     "@module-federation/webpack-bundler-runtime": ["@module-federation/webpack-bundler-runtime@0.18.0", "", { "dependencies": { "@module-federation/runtime": "0.18.0", "@module-federation/sdk": "0.18.0" } }, "sha512-TEvErbF+YQ+6IFimhUYKK3a5wapD90d90sLsNpcu2kB3QGT7t4nIluE25duXuZDVUKLz86tEPrza/oaaCWTpvQ=="],
 
     "@napi-rs/wasm-runtime": ["@napi-rs/wasm-runtime@1.0.5", "", { "dependencies": { "@emnapi/core": "^1.5.0", "@emnapi/runtime": "^1.5.0", "@tybys/wasm-util": "^0.10.1" } }, "sha512-TBr9Cf9onSAS2LQ2+QHx6XcC6h9+RIzJgbqG3++9TUZSH204AwEy5jg3BTQ0VATsyoGj4ee49tN/y6rvaOOtcg=="],
+
+    "@picocss/pico": ["@picocss/pico@2.1.1", "", {}, "sha512-kIDugA7Ps4U+2BHxiNHmvgPIQDWPDU4IeU6TNRdvXQM1uZX+FibqDQT2xUOnnO2yq/LUHcwnGlu1hvf4KfXnMg=="],
 
     "@rsbuild/core": ["@rsbuild/core@1.5.8", "", { "dependencies": { "@rspack/core": "1.5.5", "@rspack/lite-tapable": "~1.0.1", "@swc/helpers": "^0.5.17", "core-js": "~3.45.1", "jiti": "^2.5.1" }, "bin": { "rsbuild": "bin/rsbuild.js" } }, "sha512-neCNfVxOoE7DsqDB5m1hEwxCwaTRdF6g5Nxq21FaDpSg0TpAdwzYlhHDhaCcriTOP0WhdYBn4l0TRRLP3bPDQQ=="],
 
