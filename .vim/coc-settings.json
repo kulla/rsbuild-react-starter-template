@@ -1,5 +1,6 @@
 {
   "eslint.validate": [],
   "prettier.enable": false,
-  "biome.enable": true
+  "biome.enable": true,
+  "editor.codeActionsOnSave": { "source.fixAll.biome": true }
 }
