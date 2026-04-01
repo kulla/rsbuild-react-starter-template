@@ -7,6 +7,18 @@ on:
       - main
 
 jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: ./.github/actions/setup-bun
+
+      - name: Audit dependencies
+        run: bun audit
+
   build:
     runs-on: ubuntu-latest
     steps:
