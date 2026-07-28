@@ -14,11 +14,11 @@
     "preview": "bun run build && bun dist/index.html"
   },
   "dependencies": {
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.3",
+    "@biomejs/biome": "^2.5.5",
     "@tsconfig/bun": "^1.0.10",
     "@types/react-dom": "^19.2.3",
     "typescript": "^7.0.2"
